@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f2f5fa;
+    color: #2c2c2c;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Conteneur principal */
+#global {
+    min-height: 100%;
+    width: 70%;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #d6dbe3;
+}
+
+/* Titre principal du blog */
+#titreBlog {
+    margin: 0;
+    font-size: 2.3rem;
+    color: #264c7c; /* bleu doux */
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+/* Sous-texte d’introduction */
+header p {
+    text-align: center;
+    color: #666;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+
+/* cadre des articles */
+article {
+    background: #fdfefe;
+    border: 1px solid #e2e6eb;
+    border-left: 6px solid #4d82c9; /* accent color */
+    padding: 18px 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+/* Titre du billet */
+.titreBillet {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+    color: #1f1f1f;
+}
+
+/* Date */
+time {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Contenu du billet */
+article p {
+    line-height: 1.7;
+    color: #3e3e3e;
+    margin-top: 10px;
+}
+
+/* Pied de page */
+#piedBlog {
+    text-align: center;
+    color: #666;
+    margin-top: 35px;
+    font-size: 0.95rem;
+}
+
