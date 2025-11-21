@@ -1,5 +1,5 @@
 <?php
 require 'Modele.php';
 $billets = getBillets();
-require 'vueAcceuil.php';
+require 'vueAccueil.php';
 ?>
